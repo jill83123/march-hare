@@ -21,6 +21,7 @@ const SwalMixin = {
         showCancelButton: true,
         confirmButtonText: '確認',
         cancelButtonText: '取消',
+        reverseButtons: true,
         customClass: {
           confirmButton: 'swal-btn-check',
           cancelButton: 'swal-btn-cancel',
