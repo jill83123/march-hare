@@ -1,0 +1,1 @@
+import{N as o}from"./tw-elements.es.min-5f64f089.js";const a={mounted(){this.modal=new o(this.$refs.modal)},data(){return{modal:{}}},methods:{showModal(){this.modal.show()},hideModal(){this.modal.hide()}}};export{a as m};
