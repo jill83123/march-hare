@@ -1,0 +1,1 @@
+import{I as a}from"./index-069841ce.js";const i=a("states",{state:()=>({messages:[],state:{isLoading:!1,loadingIcon:""}}),actions:{pushToastMessage(e,t,s){if(e)this.messages.push({title:t,message:s,style:"bg-success"});else{const o=typeof s=="string"?[s]:s;this.messages.push({title:t,message:o.join(" 、 "),style:"bg-danger"})}}}});export{i as s};
