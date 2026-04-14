@@ -371,8 +371,10 @@ export default {
     },
   },
   watch: {
-    $route() {
-      window.location.reload();
+    '$route.params.id': {
+      handler() {
+        this.getProductDetails();
+      },
     },
   },
   methods: {

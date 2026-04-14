@@ -83,8 +83,10 @@ export default {
     ...mapState(articleStore, ['articleList', 'asideList']),
   },
   watch: {
-    $route() {
-      window.location.reload();
+    '$route.params.id': {
+      handler() {
+        this.getArticle();
+      },
     },
   },
   methods: {
