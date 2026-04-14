@@ -1,5 +1,5 @@
 # 三月兔下午茶
-**[Demo](https://jill83123.github.io/MarchHare-bakery/#/index)**
+**[Demo](https://jill83123.github.io/march-hare/#/index)**
 
 以甜點為主題的 SPA 電商網站，主要使用 `Vue 3` 所製作。
 
@@ -44,6 +44,10 @@ npm run dev
 # 編譯打包
 npm run build
 ```
+
+## 更新記錄
+- 2026.04 修正與優化明顯問題
+- 2023.12 完成專案
 
 ## 其它
 * [API](https://github.com/hexschool/vue3-course-api-wiki/wiki)
