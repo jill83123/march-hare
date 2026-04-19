@@ -1,16 +1,19 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 
+import UserPage from '../views/frontend/UserPage.vue';
+import UserIndex from '../views/frontend/UserIndex.vue';
+import PageNotFound from '../views/PageNotFound.vue';
+
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [
     {
       path: '/',
-      redirect: '/index',
-      component: () => import('../views/frontend/UserPage.vue'),
+      component: UserPage,
       children: [
         {
-          path: '/index',
-          component: () => import('../views/frontend/UserIndex.vue'),
+          path: '',
+          component: UserIndex,
         },
         {
           path: '/shop',
@@ -98,7 +101,7 @@ const router = createRouter({
         },
         {
           path: '/:pathMatch(.*)*',
-          component: () => import('../views/PageNotFound.vue'),
+          component: PageNotFound,
           meta: {
             title: '査無此頁',
           },
