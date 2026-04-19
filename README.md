@@ -1,5 +1,5 @@
 # 三月兔下午茶
-**[Demo](https://jill83123.github.io/march-hare/#/index)**
+**[Demo](https://jill83123.github.io/march-hare/#/)**
 
 以甜點為主題的 SPA 電商網站，主要使用 `Vue 3` 所製作。
 
